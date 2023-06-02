@@ -3,9 +3,9 @@ import { ajax } from "../tools/ajax";
 export const getCities = async countryCode => {
     const optionsRequest = {
         method: "GET",
-        url: "https://spott.p.rapidapi.com/places",
+        url: "https://spott.p.rapidapi.com/places/autocomplete",
         headers: {
-            "X-RapidAPI-Key": "1910a52470msh958174fcc9d32e2p1d1e2djsna5cc8369e71f",
+            "X-RapidAPI-Key": "834eeebe63msh28803bdb79271a1p1d9430jsn88a7b7c3fac0",
             "X-RapidAPI-Host": "spott.p.rapidapi.com"
         },
         params: {
