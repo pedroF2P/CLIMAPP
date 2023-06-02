@@ -3,10 +3,10 @@ import { ajax } from "../tools/ajax";
 export const getCityWeather = async city => {
     const optionsRequest = {
         method: "GET",
-        url: "http://api.openweathermap.org/data/2.5/weather",
+        url: "https://weatherapi-com.p.rapidapi.com/current.json",
         params: {
             q: city,
-            appid: "c3e2f962ce82a4f1628b303ef50d5c75",
+            appid: "a3ae1906a7msh8668f21f14c901dp124c0bjsn956023a3082f",
             units: "metric" // Grados centígrados
         }
     };
